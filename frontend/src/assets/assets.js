@@ -172,6 +172,21 @@ export const doctors = [
     },
     {
         _id: 'doc7',
+        name: 'Dr. Ali Bousnina',
+        image: doc6,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Bousnina has extensive experience in treating neurological disorders, focusing on patient education and preventive care.',
+        fees: 50,
+        address: {
+            line1: '57th Cross, Richmond',
+            line2: 'Circle, Ring Road, Tunis'
+        }
+    },
+    
+    {
+        _id: 'doc8',
         name: 'Dr. Rania Jebali',
         image: doc7,
         speciality: 'General physician',
@@ -185,7 +200,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc8',
+        _id: 'doc9',
         name: 'Dr. Walid Daghfous',
         image: doc8,
         speciality: 'Gynecologist',
@@ -199,7 +214,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc9',
+        _id: 'doc10',
         name: 'Dr. Nada Gharbi',
         image: doc9,
         speciality: 'Dermatologist',
@@ -213,7 +228,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc10',
+        _id: 'doc11',
         name: 'Dr. Marwen Zaafrani',
         image: doc10,
         speciality: 'Pediatricians',
@@ -227,7 +242,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc11',
+        _id: 'doc12',
         name: 'Dr. Ines Masmoudi',
         image: doc11,
         speciality: 'Neurologist',
@@ -241,7 +256,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc12',
+        _id: 'doc13',
         name: 'Dr. Mohamed Kallel',
         image: doc12,
         speciality: 'Neurologist',
@@ -255,7 +270,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc13',
+        _id: 'doc14',
         name: 'Dr. Samia Bouaziz',
         image: doc13,
         speciality: 'General physician',
@@ -269,7 +284,7 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc14',
+        _id: 'doc15',
         name: 'Dr. Karim Belhaj',
         image: doc14,
         speciality: 'Gynecologist',
@@ -283,10 +298,24 @@ export const doctors = [
         }
     },
     {
-        _id: 'doc15',
+        _id: 'doc16',
         name: 'Dr. Salma Ghozzi',
         image: doc15,
         speciality: 'Dermatologist',
+        degree: 'MBBS',
+        experience: '1 Year',
+        about: 'Dr. Ghozzi is focused on delivering personalized dermatological care with a preventive approach.',
+        fees: 30,
+        address: {
+            line1: '37th Cross, Richmond',
+            line2: 'Circle, Ring Road, Tunis'
+        }
+    },
+    {
+        _id: 'doc17',
+        name: 'Dr. Samia Ghozzi',
+        image: doc15,
+        speciality: 'Gastroenterologist',
         degree: 'MBBS',
         experience: '1 Year',
         about: 'Dr. Ghozzi is focused on delivering personalized dermatological care with a preventive approach.',
